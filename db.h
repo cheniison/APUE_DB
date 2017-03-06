@@ -1,7 +1,7 @@
 #ifndef _DB_H
 #define _DB_H
 
-typedef void * DBHANDLE
+typedef void * DBHANDLE;
 
 DBHANDLE 	db_open(const char *, int , ...);
 void 		db_close(DBHANDLE);
